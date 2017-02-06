@@ -7,15 +7,19 @@ var namespace = "http://www.w3.org/2000/svg"
 function createFirstScene() {
     makeCircle(100, 45, 45, "black")
   makeCircle( 75, 30, 10, "white")
-  makeCircle(125, 30, 10, "white")
+  makeCircle(125, 30, 10, "white")  
+makeEllipse(100, 70, 23, 13, "gray")
+  makeCircle(100, 70, 12, "red") 
+makeRect(90.5,58, 19, 5, "gray")
 }
-createFirstScene()
 
+createFirstScene()
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    
+    makeRect(50, 50, 50, 50, "darkblue")
+
 }
 
 
@@ -30,27 +34,24 @@ function createThirdScene() {
 
 
 
+
 // FILL IN THIS FUNCTION!
 // This function is called whenever you press the "Go!" button.
 function createRandomScene() {
     // Generate a random number between 0 and 1, and store it in a variable.
     
     // If the number is less than 0.33, call the function to create your first scene.
-    
-    
+  
     
     // Else, if the number is less than 0.67, call the function to create your second scene.
-    
-    
-    
+     
+
     // Else, call the function to create your third scene.
     
     
-    
+
+
 }
-
-
-
 // DO NOT EDIT ANYTHING BELOW THIS LINE!
 // These are the functions you should call to
 // easily create shapes in JavaScript. Feel free
